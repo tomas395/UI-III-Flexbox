@@ -159,6 +159,7 @@ h5 {
 /* Your code starts here! */
 
 /* This code is for Innovation On Demand page */
+/* NAV */
 nav {
 	display: flex;
 	justify-content: center;
@@ -180,7 +181,42 @@ nav a {
 	margin-right: 3%;
 }
 
+/* HEADER */
 
+header {
+	display: flex;
+	border-bottom: 2px solid black;
+}
+
+.box2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.a2 {
+	width: 49%;
+}
+
+.b2 {
+	display: flex;
+	justify-content: center;
+	width: 49%;
+}
+
+.box2.a2 h1 {
+	font-size: 500%;
+	text-align: center;
+}
+
+.btn {
+	border: 1px solid black;
+	padding: 3px 30px;
+}
+
+/* SECTION */
 
 /* 
 a {
