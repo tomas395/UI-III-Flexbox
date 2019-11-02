@@ -159,12 +159,35 @@ h5 {
 /* Your code starts here! */
 
 /* This code is for Innovation On Demand page */
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 9vh;
+	margin: 0 0 35px 0;
 
+}
+
+nav a {
+	color: gray;
+	text-decoration: none;
+}
+
+.box1 {
+	display: flex;
+	justify-content: space-around;
+	width: 45%;
+	margin-right: 3%;
+}
+
+
+
+/* 
 a {
 	color: gray;
 }
 
-.navigation {
+.box1 {
 	display: flex;
 	justify-content: space-between;
 
@@ -215,7 +238,7 @@ a {
 .footercopyright {
 	text-align: center;
 	font-size: 13px;
-}
+} */
 
 
 
@@ -225,7 +248,7 @@ a {
 
 /* This code is for the services page */
 
-.servicesNav{
+.servicesNav {
 	display: flex;
 	justify-content: center;
 }
